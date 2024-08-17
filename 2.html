@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8" />
+        <title>Library</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./1.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="logo">Library</h1>
+                <label for="show">Add new book</label>
+                <button id="show"></button>
+            </div>
+            <div id="content">
+                <div>
+                    <label for="read">Read</label>
+                    <button id="read"></button>
+                </div>
+                <div>
+                    <label for="title">Title</label>
+                    <button id="title"></button>
+                </div>
+                <div>
+                    <label for="author">Author</label>
+                    <button id="author"></button>
+                </div>
+                <div>
+                    <label for="pages">Pages</label>
+                    <button id="pages"></button>
+                </div>
+                <div>
+                    <label for="id">Added</label>
+                    <button id="id"></button>
+                </div>
+                <hr />
+            </div>
+            </div> 
+            <div id="overlay">
+                <div id="form">
+                    <button id="close"></button>
+                    <label for="book-title">Title</label>
+                    <span data-msg="">
+                        <input type="text" id="book-title" name="book-title"/>
+                    </span>
+                    <label for="book-author">Author</label>
+                    <span data-msg="">
+                        <input type="text" id="book-author" name="book-author"/>
+                    </span>
+                    <label for="book-pages">Pages</label>
+                    <span data-msg="">
+                        <input type=""text id="book-pages" name="book-pages"/>
+                    </span>
+                    <div>
+                        <input type="checkbox" id="book-read" name="book-read"/>
+                        <label for="book-read">Already read</label>
+                    </div>
+                    <button id="add">Add</button>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
